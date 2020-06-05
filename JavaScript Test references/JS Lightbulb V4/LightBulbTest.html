@@ -1,0 +1,95 @@
+<!-- Start of script !-->
+<html>
+<meta>
+	<meta charset="UTF-16">
+<meta>
+<title>JavaScript lightbulb test Version 4 - SNU JavaScript test references</title>
+<!-- Font color setup !-->
+<style>
+#white1 {
+  color: white;
+} <!-- Backup text color (when it goes dark) !-->
+#black1 {
+	color: black;
+} <!-- For when the light turns on !-->
+</style>
+<!-- Font styles !-->
+<body>
+<body bgcolor="000000">
+<!-- start of the body !-->
+<H2 id="white1">JavaScript LightBulb test Version 4.0 R1</H2>
+<H2>JavaScript LightBulb test Version 4.0 R1</H2>
+<HR id="white1">
+<HR>
+<h2 id="white1">What Can JavaScript Do?</h2> <!-- White (works when the lights are off) !-->
+<H2>What can JavaScript Do?</H2> <!-- Black (works when the lights are on) !-->
+<p id="white1">JavaScript can change HTML attribute values.</p> <!-- White (works when the lights are off) !-->
+<p>JavaScript can change HTML attribute values.</p><!-- Black (works when the lights are on) !-->
+<p id="white1">In this case JavaScript changes the value of the src (source) attribute of an image.</p> <!-- White (works when the lights are off) !-->
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p><!-- Black (works when the lights are on) !-->
+<!-- Turn on the lightbulb and enter the room !-->
+<script> // JavaScript lightbulb background color change
+/* This script is not yet functional */
+function changeBackground(color) {
+   document.body.style.background = color;
+}
+if background-color == ("000000");
+	window.addEventListener("load",function() { changeBackground('white') });
+else;
+	window.addEventListener("load",function() { changeBackground('black') ));
+</script>
+<script> // JavaScript lightbulb on and off
+/* This script is not yet functional */
+let onclick="document.getElementByID('myImage').src='pic_bulcon.gif'
+let onclick="document.getElementById('myImage').src='pic_bulboff.gif
+</script>
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button> <!-- Turns on the lightbulb !-->
+<button onclick="document.body.style.backgroundColor = #FFFFFF;">Enable the light</button> <!-- Enables the lightbulb !-->
+
+<!-- Divider !-->
+<img id="myImage" src="pic_bulboff.gif" style="width:100px"> <!-- Lightbulb !-->
+<!-- Divider !-->
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button> <!-- Turns off the lightbulb !-->
+<button onclick="document.body.style.backgroundColor = #000000;">Disable the light</button> <!-- Disables the lightbulb !-->
+<!-- Future plans
+* Flip the lightbulb upside down, and hang it on the ceiling of the page
+* Merge the turn on the light/enable the light and turn off the light/disable the light buttons to do both actions with 1 press
+* Make the page fancier
+* Play a lightbulb sound
+* Learn how to make this JavaScript test functional
+* Make the CSS functional to the environment
+FAR OFF GOAL: Make all 4 functions work with a single button
+!-->
+<HR id="white1">
+<HR>
+<H3 id="white1">This test is still being tested, and is not yet 100% functional.</H3>
+<H3>This test is still being tested, and is not yet 100% functional.</H3>
+<p id="white1">Development delay, ended March 13th 2019, resumed September 21st 2019</p>
+<p>Development delay, ended March 13th 2019, resumed September 21st 2019</p>
+<!-- Turn off the lightbulb and leave the room !-->
+<!-- end of the body !-->
+</body>
+<!-- Overview 
+The white text shows when the room is dark. When the light bulb is enabled, the black text will show up. This is a simulation to test Javascript and CSS
+The objective is making a room that has a light that turns on and off, not only changing the image, but the background as well
+This is written in 3 languages: HTML, CSS, and JavaScript 
+!-->
+<!-- Notes
+The way the page is currently set up, there is a white version and a black version of all headngs and paragraphs. This is done intentioally, as when the light is flickered on and off in a functional build, text will be visible in both lightings.
+This functionality may be removed after 1 build successfully shows it off once a more functional method is found
+!-->
+<HR id="white1">
+<HR>
+<details><summary><H2 id="white1">View different releases of this page</H2>
+<H2>View different releases of this page</H2></summary>
+<p><a href="../JS Lightbulb V1/LightBulbTest.html">Version 1.0 (March 13th 2019)</a></p>
+<p><a href="../JS Lightbulb V2/LightBulbTest.html">Version 2.0 (March 13th 2019)</a></p>
+<p><a href="../JS Lightbulb V3/LightBulbTest.html">Version 3.0 (March 13th 2019)</a></p>
+<p><a href="../JS Lightbulb V4/LightBulbTest_Snapshot1.html">Version 4.0 snapshot 1 (September 21st 2019)</a></p>
+<p><a href="../JS Lightbulb V4/LightBulbTest_Snapshot2.html">Version 4.0 snapshot 2 (coming soon)</a></p>
+<p><a href="../JS Lightbulb V4/LightBulbTest_Snapshot3.html">Version 4.0 snapshot 3 (coming soon)</a></p>
+</details>
+<HR id="white1">
+<HR>
+</html>
+<!-- End of script !-->
